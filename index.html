@@ -15,37 +15,14 @@
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="http://getbootstrap.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/theme.css" rel="stylesheet">
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-    <script src="http://getbootstrap.com/assets/js/docs.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
-
-    <script>
-    $(document).ready(function(){
-      $("#myBtn").click(function(){
-        if( $('#form [name=optionsRadios]:checked').val()=="option1"){$("#myCollapse2").collapse('hide');$("#myCollapse3").collapse('hide');$("#myCollapse4").collapse('hide');$("#myCollapse").collapse('toggle');}
-        if( $('#form [name=optionsRadios]:checked').val()=="option2"){$("#myCollapse").collapse('hide');$("#myCollapse3").collapse('hide');$("#myCollapse4").collapse('hide');$("#myCollapse2").collapse('toggle');}
-        if( $('#form [name=optionsRadios]:checked').val()=="option3"){$("#myCollapse").collapse('hide');$("#myCollapse2").collapse('hide');$("#myCollapse4").collapse('hide');$("#myCollapse3").collapse('toggle');}
-        if( $('#form [name=optionsRadios]:checked').val()=="option4"){$("#myCollapse").collapse('hide');$("#myCollapse2").collapse('hide');$("#myCollapse3").collapse('hide');$("#myCollapse4").collapse('toggle');}
-      });
-    });
-    </script>
-
-
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="http://getbootstrap.com/assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -179,7 +156,26 @@
 
 	</div> <!--/container -->
   
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
+    <script src="js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <script>
+    $(document).ready(function(){
+      $("#myBtn").click(function(){
+        if( $('#form [name=optionsRadios]:checked').val()=="option1"){$("#myCollapse2").collapse('hide');$("#myCollapse3").collapse('hide');$("#myCollapse4").collapse('hide');$("#myCollapse").collapse('toggle');}
+        if( $('#form [name=optionsRadios]:checked').val()=="option2"){$("#myCollapse").collapse('hide');$("#myCollapse3").collapse('hide');$("#myCollapse4").collapse('hide');$("#myCollapse2").collapse('toggle');}
+        if( $('#form [name=optionsRadios]:checked').val()=="option3"){$("#myCollapse").collapse('hide');$("#myCollapse2").collapse('hide');$("#myCollapse4").collapse('hide');$("#myCollapse3").collapse('toggle');}
+        if( $('#form [name=optionsRadios]:checked').val()=="option4"){$("#myCollapse").collapse('hide');$("#myCollapse2").collapse('hide');$("#myCollapse3").collapse('hide');$("#myCollapse4").collapse('toggle');}
+      });
+    });
+    </script>
 
   </body>
 </html>
